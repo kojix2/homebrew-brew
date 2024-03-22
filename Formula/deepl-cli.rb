@@ -1,4 +1,4 @@
-class DeepLCLI < Formula
+class DeeplCli < Formula
   version 'v0.2.5'
   desc ''
   homepage ''
