@@ -21,8 +21,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Install homebrew
-        run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      - name: Install homebrew (ubuntu)
+        if: ${{ matrix.gr != 'system' && matrix.os == 'ubuntu' }}
+        run: |
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
       - name: Add Homebrew tap
         run: brew tap kojix2/brew
       - name: Install deepl-cli
