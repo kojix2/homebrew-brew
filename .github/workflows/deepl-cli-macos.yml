@@ -1,14 +1,14 @@
-name: deepl-cli(macos)
+name: deepl-cli (macos) # edit
 
 on:
   push:
     branches:
       - main
     paths:
-      - 'Formula/deepl-cli.rb'
-      - '.github/workflows/deepl-cli-macos.yml'
+      - "Formula/deepl-cli.rb" # edit
+      - ".github/workflows/deepl-cli-macos.yml" # edit
   schedule:
-    - cron: '51 3 * * 6'  # Runs at 03:51, only on Saturday
+    - cron: "51 3 * * 6" # Runs at 03:51, only on Saturday
   workflow_dispatch:
 
 jobs:
@@ -20,5 +20,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Install (macos)
         run: |
-          brew install kojix2/brew/deepl-cli
-          run: deepl --version
+          brew install kojix2/brew/deepl-cli    # edit
+          deepl --version                       # edit
