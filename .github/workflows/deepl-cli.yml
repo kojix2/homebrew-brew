@@ -1,0 +1,31 @@
+name: Install Homebrew Tap
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Formula/deepl-cli.rb'
+  schedule:
+    - cron: '51 3 19 * *' # Runs at 03:51, on day 19 of the month
+  workflow_dispatch:
+
+jobs:
+  test_installation:
+    name: ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}-latest
+    strategy:
+      matrix:
+        os: ["ubuntu", "macos"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install homebrew
+        run: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      - name: Add Homebrew tap
+        run: brew tap kojix2/brew
+      - name: Install deepl-cli
+        run: |
+          brew install kojix2/brew/deepl-cli
+          deepl --version
