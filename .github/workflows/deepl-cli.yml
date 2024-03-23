@@ -1,4 +1,4 @@
-name: Install Homebrew Tap
+name: deepl-cli
 
 on:
   push:
