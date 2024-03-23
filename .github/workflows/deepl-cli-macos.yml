@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'Formula/deepl-cli.rb'
-      - '.github/workflows/deepl-cli.yml'
+      - '.github/workflows/deepl-cli-macos.yml'
   schedule:
     - cron: '51 3 * * 6'  # Runs at 03:51, only on Saturday
   workflow_dispatch:
