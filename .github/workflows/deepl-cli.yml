@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'Formula/deepl-cli.rb'
+      - '.github/workflows/deepl-cli.yml'
   schedule:
     - cron: '51 3 19 * *' # Runs at 03:51, on day 19 of the month
   workflow_dispatch:
