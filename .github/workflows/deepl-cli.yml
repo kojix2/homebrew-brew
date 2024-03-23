@@ -16,19 +16,23 @@ jobs:
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}-latest
     strategy:
+      fail-fast: false
       matrix:
         os: ["ubuntu", "macos"]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Install homebrew (ubuntu)
+      - name: Install (ubuntu)
         if: ${{ matrix.os == 'ubuntu' }}
         run: |
           /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           brew tap kojix2/brew
-      - name: Install deepl-cli
+          brew install kojix2/brew/deepl-cli
+      - name: Install (macos)
         run: |
           brew install kojix2/brew/deepl-cli
-          deepl --version
+      - name: Test
+        run: deepl --version
+
