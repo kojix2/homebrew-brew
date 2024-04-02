@@ -7,6 +7,7 @@ class ChatgptCli < Formula
   license "MIT"
 
   depends_on "crystal"
+  depends_on "cmake" # kostya/lexbor
   depends_on "readline"
   depends_on "bat"
 
