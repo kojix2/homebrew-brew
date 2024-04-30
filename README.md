@@ -22,3 +22,12 @@ brew install kojix2/brew/deepl-cli
 ```sh
 brew install kojix2/brew/chatgpt-cli
 ````
+
+### [wgsim.cr](https://github.com/kojix2/wgsim.cr)
+
+[![wgsim (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/wgsim-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/wgsim-macos.yml)
+[![wgsim (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/wgsim-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/wgsim-ubuntu.yml)
+
+```sh
+brew install kojix2/brew/wgsim
+```
