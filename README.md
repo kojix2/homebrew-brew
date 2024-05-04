@@ -23,6 +23,15 @@ brew install kojix2/brew/deepl-cli
 brew install kojix2/brew/chatgpt-cli
 ````
 
+### [sdust.cr](https://github.com/kojix2/sdust.cr)
+
+[![sdust (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml)
+[![sdust (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-ubuntu.yml)
+
+```sh
+brew install kojix2/brew/sdust
+```
+
 ### [wgsim.cr](https://github.com/kojix2/wgsim.cr)
 
 [![wgsim (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/wgsim-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/wgsim-macos.yml)
