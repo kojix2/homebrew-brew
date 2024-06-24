@@ -1,14 +1,13 @@
 class ChatgptCli < Formula
-  version "v0.4.4"
+  version "v0.5.0"
   desc "Simple command line tool for ChatGPT"
   homepage "https://github.com/kojix2/chatgpt-cli"
   url "https://github.com/kojix2/chatgpt-cli.git",
-      tag: "v0.4.4",
-      revision: "80c2dd9fc20766c702a003aae1522843363c70be"
+      tag: "v0.5.0",
+      revision: "3732553513ebe14d0113549f6d0449fd866cf30c"
   license "MIT"
 
   depends_on "crystal"
-  depends_on "cmake" # kostya/lexbor
   depends_on "readline"
   depends_on "bat"
 
