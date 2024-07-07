@@ -21,7 +21,16 @@ brew install kojix2/brew/deepl-cli
 
 ```sh
 brew install kojix2/brew/chatgpt-cli
-````
+```
+
+### [checksum.cr](https://github.com/kojix2/checksum.cr)
+
+[![checksum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-macos.yml)
+[![checksum (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-ubuntu.yml)
+
+```sh
+brew install kojix2/brew/checksum
+```
 
 ### [sdust.cr](https://github.com/kojix2/sdust.cr)
 

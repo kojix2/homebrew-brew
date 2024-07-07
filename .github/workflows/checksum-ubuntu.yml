@@ -1,0 +1,28 @@
+name: checksum (ubuntu) # edit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Formula/checksum.rb" # edit
+      - ".github/workflows/checksum-ubuntu.yml" # edit
+  schedule:
+    - cron: "51 3 * * 6" # Runs at 03:51, only on Saturday
+  workflow_dispatch:
+
+jobs:
+  test_installation:
+    name: ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install
+        run: |
+          /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+          brew tap kojix2/brew
+          brew install kojix2/brew/checksum    # edit
+          checksum --version                       # edit
