@@ -1,4 +1,4 @@
-class ODIG < Formula
+class Odgi < Formula
     version "v0.8.6"
     desc "Optimized dynamic genome/graph implementation (odgi)"
     homepage "https://github.com/pangenome/odgi"
