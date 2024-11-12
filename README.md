@@ -32,6 +32,15 @@ brew install kojix2/brew/checksum
 brew install kojix2/brew/deepl-cli
 ```
 
+### [gpscan](https://github.com/kojix2/gpscan)
+
+[![gpscan (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-macos.yml)
+[![gpscan (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-ubuntu.yml)
+
+```sh
+brew install kojix2/brew/gpscan
+```
+
 ### [sdust.cr](https://github.com/kojix2/sdust.cr)
 
 [![sdust (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml)
