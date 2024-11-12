@@ -1,4 +1,4 @@
-class DeeplCli < Formula
+class Gpscan < Formula
   version "v0.0.7"
   desc "Generate GrandPerspective-compatible XML files"
   homepage "https://github.com/kojix2/gpscan"
