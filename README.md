@@ -41,6 +41,15 @@ brew install kojix2/brew/deepl-cli
 brew install kojix2/brew/gpscan
 ```
 
+### [lolcat.cr](https://github.com/kojix2/lolcat.cr)
+
+[![lolcat (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/lolcat-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/lolcat-macos.yml)
+[![lolcat (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/lolcat-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/lolcat-ubuntu.yml)
+
+```sh
+brew install kojix2/brew/lolcat
+```
+
 ### [sdust.cr](https://github.com/kojix2/sdust.cr)
 
 [![sdust (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml)
