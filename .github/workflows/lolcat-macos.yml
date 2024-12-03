@@ -1,0 +1,24 @@
+name: lolcat (macos) # edit
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "Formula/lolcat.rb" # edit
+      - ".github/workflows/lolcat-macos.yml" # edit
+  schedule:
+    - cron: "51 3 * * 6" # Runs at 03:51, only on Saturday
+  workflow_dispatch:
+
+jobs:
+  test_installation:
+    name: macos
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Install (macos)
+        run: |
+          brew install kojix2/brew/lolcat    # edit
+          lolcat --version                   # edit
