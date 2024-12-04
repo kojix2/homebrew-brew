@@ -1,9 +1,9 @@
 class Lolcat < Formula
-  version "v0.0.5"
+  version "v0.0.6"
   desc "Crystal implementation of the lolcat "
   homepage "https://github.com/kojix2/lolcat.cr"
-  url "https://github.com/kojix2/lolcat.cr/archive/refs/tags/v0.0.5.tar.gz"
-  sha256 "6896dd30a6d9e1f7b909f11ca8fb9fc003d10c9974d21cfe5c6d48b8b2da1b33"
+  url "https://github.com/kojix2/lolcat.cr/archive/refs/tags/v0.0.6.tar.gz"
+  sha256 "30db64c581f51478a1da8a8cdca3d339ca5be27f46c8277f168eb7042b1cd962"
   license "BSD-3-Clause"
 
   depends_on "crystal"
