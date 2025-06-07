@@ -14,13 +14,13 @@ brew tap kojix2/brew
 brew install kojix2/brew/chatgpt-cli
 ```
 
-### [checksum.cr](https://github.com/kojix2/checksum.cr)
+### [verisum.cr](https://github.com/kojix2/verisum.cr)
 
-[![checksum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-macos.yml)
-[![checksum (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/checksum-ubuntu.yml)
+[![verisum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml)
+[![verisum (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml)
 
 ```sh
-brew install kojix2/brew/checksum
+brew install kojix2/brew/verisum
 ```
 
 ### [DeepL CLI](https://github.com/kojix2/deepl-cli)
