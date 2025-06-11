@@ -14,7 +14,7 @@ brew tap kojix2/brew
 brew install kojix2/brew/chatgpt-cli
 ```
 
-### [verisum.cr](https://github.com/kojix2/verisum.cr)
+### [verisum](https://github.com/kojix2/verisum)
 
 [![verisum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml)
 [![verisum (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml)
