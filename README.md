@@ -14,15 +14,6 @@ brew tap kojix2/brew
 brew install kojix2/brew/chatgpt-cli
 ```
 
-### [verisum](https://github.com/kojix2/verisum)
-
-[![verisum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml)
-[![verisum (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml)
-
-```sh
-brew install kojix2/brew/verisum
-```
-
 ### [DeepL CLI](https://github.com/kojix2/deepl-cli)
 
 [![deepl-cli (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/deepl-cli-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/deepl-cli-macos.yml)
@@ -48,6 +39,15 @@ brew install kojix2/brew/lolcat
 
 ```sh
 brew install kojix2/brew/sdust
+```
+
+### [verisum](https://github.com/kojix2/verisum)
+
+[![verisum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml)
+[![verisum (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-ubuntu.yml)
+
+```sh
+brew install kojix2/brew/verisum
 ```
 
 ### [wgsim.cr](https://github.com/kojix2/wgsim.cr)
