@@ -32,15 +32,6 @@ brew install kojix2/brew/verisum
 brew install kojix2/brew/deepl-cli
 ```
 
-### [gpscan](https://github.com/kojix2/gpscan)
-
-[![gpscan (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-macos.yml)
-[![gpscan (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/gpscan-ubuntu.yml)
-
-```sh
-brew install kojix2/brew/gpscan
-```
-
 ### [lolcat.cr](https://github.com/kojix2/lolcat.cr)
 
 [![lolcat (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/lolcat-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/lolcat-macos.yml)
