@@ -1,9 +1,9 @@
 class DeeplCli < Formula
-  version "v0.4.11"
+  version "v0.4.12"
   desc "Simple command line tool for DeepL"
   homepage "https://github.com/kojix2/deepl-cli"
-  url "https://github.com/kojix2/deepl-cli/archive/refs/tags/v0.4.11.tar.gz"
-  sha256 "15b6d9656f4fc08d03f4cbbdab427e0786db1216d9d3f3bf90068daa43e88b5d"
+  url "https://github.com/kojix2/deepl-cli/archive/refs/tags/v0.4.12.tar.gz"
+  sha256 "d1341d8cef575bb182f18bf18850d35d59fe258ce896e6702d22ae25c82a19fa"
   license "MIT"
 
   depends_on "crystal"
