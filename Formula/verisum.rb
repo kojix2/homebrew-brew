@@ -1,9 +1,9 @@
 class Verisum < Formula
-  version "v0.1.7"
+  version "v0.1.8"
   desc "A more comfortable checksum"
   homepage "https://github.com/kojix2/verisum"
-  url "https://github.com/kojix2/verisum/archive/tags/v0.1.7.tar.gz"
-  sha256 "3cb346a73181d213ed85fcdb795546132ca4fda3c147eeb4fc4df48a021f3008"
+  url "https://github.com/kojix2/verisum/archive/tags/v0.1.8.tar.gz"
+  sha256 "f4f2ff7bf98dace7efceeb2dbdee8560ad3459677bcf1b30300aab07028125cb"
   license "MIT"
 
   depends_on "crystal"
