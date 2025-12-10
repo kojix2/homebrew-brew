@@ -3,8 +3,8 @@ class ChatgptCli < Formula
   desc "Simple command line tool for ChatGPT"
   homepage "https://github.com/kojix2/chatgpt-cli"
   url "https://github.com/kojix2/chatgpt-cli.git",
-      tag: "v0.6.1",
-      revision: "a631f97689ed6ad78de847a8f7a24a168b722ee3"
+      tag: "v0.7.0",
+      revision: "8884baebbefceb9d0dd1cbc70cb6460cb577b9cc"
   license "MIT"
 
   depends_on "crystal"
