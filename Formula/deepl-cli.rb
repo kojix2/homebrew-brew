@@ -6,6 +6,7 @@ class DeeplCli < Formula
   license "MIT"
 
   depends_on "crystal" => :build
+  depends_on "openssl@3"
 
   def install
     system "shards", "build", "--release"
