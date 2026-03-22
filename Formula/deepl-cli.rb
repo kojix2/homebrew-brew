@@ -1,16 +1,18 @@
 class DeeplCli < Formula
-  version "v0.5.0"
   desc "Simple command line tool for DeepL"
   homepage "https://github.com/kojix2/deepl-cli"
-  url "https://github.com/kojix2/deepl-cli/archive/refs/tags/v0.5.0.tar.gz"
-  sha256 "851d5c0272c5123071d5b3cb244e5867a247440c06cd47105559f468fd8ad6d4"
+  url "https://github.com/kojix2/deepl-cli/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "bc81fbc3bae63a540455fc5b5c25e5620949a5bf46efbab842708c2fb56d7ac9"
   license "MIT"
 
-  depends_on "crystal"
-  depends_on "readline"
+  depends_on "crystal" => :build
 
   def install
-    system "shards build --release"
+    system "shards", "build", "--release"
     bin.install "bin/deepl"
+  end
+
+  test do
+    assert_match version.to_s, shell_output("#{bin}/deepl --version")
   end
 end
