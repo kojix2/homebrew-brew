@@ -1,5 +1,4 @@
 class Wgsim < Formula
-  version "v0.0.9.alpha"
   desc "Reimplement wgsim in Crystal and add extra features."
   homepage "https://github.com/kojix2/wgsim"
   url "https://github.com/kojix2/wgsim.cr/archive/refs/tags/v0.0.9.alpha.tar.gz"
