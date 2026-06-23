@@ -1,11 +1,12 @@
 class Lolcat < Formula
   desc "Crystal implementation of the lolcat "
   homepage "https://github.com/kojix2/lolcat.cr"
-  url "https://github.com/kojix2/lolcat.cr/archive/refs/tags/v0.0.10.tar.gz"
-  sha256 "16589dcec451b8d1849c869adf85f1c910ea76f09b7beb1878ff218a7cbf7bb0"
+  url "https://github.com/kojix2/lolcat.cr/archive/refs/tags/v0.0.12.tar.gz"
+  sha256 "3fb9acceaede7f6738ae8217e576f8e0da57aac80debfeb7772a16ebbf77a189"
   license "BSD-3-Clause"
 
   depends_on "crystal" => :build
+  depends_on "pcre2"
 
   def install
     system "shards build --release"
