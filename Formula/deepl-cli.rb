@@ -10,7 +10,7 @@ class DeeplCli < Formula
   depends_on "pcre2"
   
   def install
-    system "shards", "build", "--release"
+    system "shards", "build", "--release", "-Dclipboard"
     bin.install "bin/deepl"
   end
 
