@@ -32,15 +32,6 @@ brew install kojix2/brew/deepl-cli
 brew install kojix2/brew/lolcat
 ```
 
-### [sdust.cr](https://github.com/kojix2/sdust.cr)
-
-[![sdust (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-macos.yml)
-[![sdust (ubuntu)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-ubuntu.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/sdust-ubuntu.yml)
-
-```sh
-brew install kojix2/brew/sdust
-```
-
 ### [verisum](https://github.com/kojix2/verisum)
 
 [![verisum (macos)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml/badge.svg)](https://github.com/kojix2/homebrew-brew/actions/workflows/verisum-macos.yml)
