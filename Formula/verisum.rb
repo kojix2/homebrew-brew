@@ -1,8 +1,8 @@
 class Verisum < Formula
   desc "A more comfortable checksum"
   homepage "https://github.com/kojix2/verisum"
-  url "https://github.com/kojix2/verisum/archive/tags/v0.2.1.tar.gz"
-  sha256 "6693e3192606e4e9340d40e3a1570639ebf527f9dcc027dcb1a8a9deef94c13c"
+  url "https://github.com/kojix2/verisum/archive/tags/v0.2.2.tar.gz"
+  sha256 "d362d5317f21c6f2ec9e519fb18bb58f89912f51d4eb62b98613e675327e2967"
   license "MIT"
 
   depends_on "crystal" => :build
